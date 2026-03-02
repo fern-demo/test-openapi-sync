@@ -1,1 +1,8 @@
-{}
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "CONFLICTING CHANGE",
+    "version": "999.0.0"
+  },
+  "paths": {}
+}
