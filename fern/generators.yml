@@ -2,4 +2,4 @@
 api:
   specs:
     - openapi: openapi/openapi.json
-      origin: https://raw.githubusercontent.com/fern-demo/test-sync-api/main/source-spec/openapi.json
+      origin: https://raw.githubusercontent.com/fern-demo/test-openapi-sync/main/source-spec/openapi.json
