@@ -1,1 +1,32 @@
-{}
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "Test Sync API",
+    "version": "101.0.0",
+    "description": "Auto-generated test spec version 101"
+  },
+  "paths": {
+    "/health": {
+      "get": {
+        "operationId": "getHealth",
+        "summary": "Health check endpoint",
+        "responses": {
+          "200": {
+            "description": "Service is healthy"
+          }
+        }
+      }
+    },
+    "/status": {
+      "get": {
+        "operationId": "getStatus",
+        "summary": "Status v101",
+        "responses": {
+          "200": {
+            "description": "Returns status v101"
+          }
+        }
+      }
+    }
+  }
+}
