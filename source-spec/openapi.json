@@ -2,8 +2,8 @@
   "openapi": "3.0.3",
   "info": {
     "title": "Test Sync API",
-    "version": "101.0.0",
-    "description": "Auto-generated test spec version 101"
+    "version": "102.0.0",
+    "description": "Auto-generated test spec version 102"
   },
   "paths": {
     "/health": {
@@ -20,10 +20,10 @@
     "/status": {
       "get": {
         "operationId": "getStatus",
-        "summary": "Status v101",
+        "summary": "Status v102",
         "responses": {
           "200": {
-            "description": "Returns status v101"
+            "description": "Returns status v102"
           }
         }
       }
