@@ -10,7 +10,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
       - name: Update API with Fern
-        uses: fern-api/sync-openapi@v2
+        uses: fern-api/sync-openapi@devin/1772467782-fix-duplicate-prs
         with:
           update_from_source: true
           token: ${{ secrets.GITHUB_TOKEN }}
