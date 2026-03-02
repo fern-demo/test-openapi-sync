@@ -1,9 +1,1 @@
-{
-  "openapi": "3.0.3",
-  "info": {
-    "title": "Test Sync API",
-    "version": "0.0.1",
-    "description": "Placeholder - will be updated by fern api update"
-  },
-  "paths": {}
-}
+{}
