@@ -2,8 +2,8 @@
   "openapi": "3.0.3",
   "info": {
     "title": "Test Sync API",
-    "version": "1.0.0",
-    "description": "A minimal OpenAPI spec used to test the sync-openapi GitHub Action."
+    "version": "2.0.0",
+    "description": "Updated spec - version 2"
   },
   "paths": {
     "/health": {
@@ -12,20 +12,18 @@
         "summary": "Health check endpoint",
         "responses": {
           "200": {
-            "description": "Service is healthy",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "status": {
-                      "type": "string",
-                      "example": "ok"
-                    }
-                  }
-                }
-              }
-            }
+            "description": "Service is healthy"
+          }
+        }
+      }
+    },
+    "/status": {
+      "get": {
+        "operationId": "getStatus",
+        "summary": "Status endpoint",
+        "responses": {
+          "200": {
+            "description": "Returns status"
           }
         }
       }
